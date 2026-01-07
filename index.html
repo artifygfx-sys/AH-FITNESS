@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AH FITNESS | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>AH FITNESS</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="membership.html">Membership</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="energetics.html">Gym Energetics</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <!-- Hamburger Icon for mobile -->
+    <div class="hamburger" onclick="toggleMenu(this)">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+</header>
+
+<!-- HERO SECTION -->
+<div class="hero">
+    <div>
+        <h2>Build Strength, Crush Goals</h2>
+        <p>Train hard. Stay strong. Live fit.</p>
+
+        <a href="about.html" class="btn">About Us</a>
+        <a href="membership.html" class="btn">Membership</a>
+        <a href="gallery.html" class="btn">Gallery</a>
+        <a href="energetics.html" class="btn">Gym Energetics</a>
+        <a href="contact.html" class="btn">Contact Us</a> <!-- NEW BUTTON -->
+    </div>
+</div>
+
+<section>
+    <h2>Why Choose AH Fitness?</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Modern Equipment</h3>
+            <p>Latest gym machines for best results.</p>
+        </div>
+        <div class="card">
+            <h3>Certified Trainers</h3>
+            <p>Professional trainers with experience.</p>
+        </div>
+        <div class="card">
+            <h3>Flexible Timings</h3>
+            <p>Morning & evening batches available.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Our Training Programs</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Bodybuilding</h3>
+            <p>Build muscle & strength professionally.</p>
+        </div>
+        <div class="card">
+            <h3>Weight Loss</h3>
+            <p>Fat burn with cardio & diet plans.</p>
+        </div>
+        <div class="card">
+            <h3>Cross Training</h3>
+            <p>High intensity functional workouts.</p>
+        </div>
+    </div>
+</section>
+
+<!-- INTRO -->
+<section>
+    <h2>Welcome to AH Fitness</h2>
+    <p>
+        AH Fitness is a professional gym focused on strength training,
+        bodybuilding, and overall fitness with modern equipment and
+        expert guidance.
+    </p>
+</section>
+
+<!-- PINTEREST GALLERY PREVIEW (END PART) -->
+<section>
+    <h2>Workout Highlights</h2>
+    <p>Some moments from our intense training sessions.</p>
+
+    <div class="gallery">
+        <iframe 
+            src="https://assets.pinterest.com/ext/embed.html?id=2885187254677009" 
+            width="345" 
+            height="329" 
+            frameborder="0" 
+            scrolling="no">
+        </iframe>
+
+        <iframe 
+            src="https://assets.pinterest.com/ext/embed.html?id=7951736836085352" 
+            width="345" 
+            height="359" 
+            frameborder="0" 
+            scrolling="no">
+        </iframe>
+    </div>
+
+    <a href="gallery.html" class="btn">View Full Gallery</a>
+</section>
+
+<section>
+    <h2>What Our Members Say</h2>
+    <div class="cards">
+        <div class="card">
+            <p>"Best gym in town! Trainers are amazing."</p>
+            <strong>- SYED ABDURREHMAN</strong>
+        </div>
+        <div class="card">
+            <p>"Lost 10kg in 3 months. Highly recommended!"</p>
+            <strong>- AH FITNESS</strong>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Ready to Transform Your Body?</h2>
+    <p>Join AH Fitness today and start your journey.</p>
+    <a href="membership.html" class="btn">Join Now</a>
+    <a href="contact.html" class="btn">Contact Us</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2025 AH FITNESS | Contact: 0334-2031811</p>
+</footer>
+
+<!-- JS for toggling sidebar -->
+<script>
+function toggleMenu(x) {
+    x.classList.toggle("change");
+    document.getElementById("sidebar").classList.toggle("show");
+}
+</script>
+
+</body>
+</html>
